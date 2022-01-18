@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AndroidAssignment</string>
+    <string name="content_description">Loading Image</string>
+    <string name="full_name">Full Name: </string>
+    <string name="id">Id: </string>
+    <string name="description">Description: </string>
 </resources>

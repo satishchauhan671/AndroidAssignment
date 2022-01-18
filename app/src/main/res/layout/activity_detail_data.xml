@@ -41,7 +41,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         imageFromUrl="@{ownerModel.avatar_url}"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:contentDescription="@string/content_description" />
 
     </androidx.cardview.widget.CardView>
 
@@ -49,7 +50,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="30dp">
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp">
 
 
         <LinearLayout
@@ -63,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
                 android:textSize="16sp"
-                android:text="Full Name: "/>
+                android:text="@string/full_name" />
 
 
             <TextView
@@ -90,7 +92,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
                 android:textSize="16sp"
-                android:text="Id: "/>
+                android:text="@string/id" />
 
 
             <TextView
@@ -118,7 +120,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
                 android:textSize="16sp"
-                android:text="Description: "/>
+                android:text="@string/description" />
 
 
             <TextView
