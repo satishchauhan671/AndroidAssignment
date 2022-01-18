@@ -1,7 +1,8 @@
 #**Android Assignment**
 
 Listing & detail show with pagination to load more data.
-Setup
+
+**Setup**
 1.	Install Android Studio
 2.	Install JDK
 
