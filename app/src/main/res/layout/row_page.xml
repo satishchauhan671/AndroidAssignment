@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:card_view="http://schemas.android.com/tools">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
+
         <variable
             name="itemModel"
             type="com.gravityloft.androidassignment.model.Item" />
@@ -39,7 +39,7 @@
                 android:textSize="14sp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="Name: "/>
+                android:text="@string/name" />
 
             <TextView
                 android:id="@+id/name"
@@ -69,7 +69,7 @@
                 android:layout_weight="1.7"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="Path: "/>
+                android:text="@string/path" />
 
             <TextView
                 android:id="@+id/path"
@@ -97,7 +97,7 @@
                 android:textStyle="bold"
                 android:layout_weight="1.7"
                 android:textColor="@color/black"
-                android:text="Sha: "/>
+                android:text="@string/sha" />
 
             <TextView
                 android:id="@+id/sha"
